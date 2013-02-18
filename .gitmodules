@@ -13,3 +13,9 @@
 [submodule "fontconfig"]
 	path = fontconfig
 	url = ../fontconfig
+[submodule "toolbox-base"]
+	path = toolbox-base
+	url = ../../base
+[submodule "libtiff"]
+	path = libtiff
+	url = ../libtiff

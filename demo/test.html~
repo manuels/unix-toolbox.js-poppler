@@ -1,0 +1,16 @@
+<html>
+
+<script src="../toolbox-base/interface.js"></script>
+
+<script>
+  var convert = new Interface('../pdftohtml-worker.js');
+  convert.on_stdout = function(txt) { console.log(txt); };
+  convert.on_stderr = function(txt) { console.log(txt); };
+
+  convert.run('--help');
+</script>
+
+<body>
+</body>
+
+</html>
