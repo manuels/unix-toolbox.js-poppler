@@ -117,7 +117,7 @@ bool JpegWriter::init(FILE *f, int width, int height, int hDPI, int vDPI)
 
   // Set quality
   if (priv->quality >= 0 && priv->quality <= 100) {
-    jpeg_set_quality(&priv->cinfo, priv->quality, true);
+    jpeg_set_quality(&priv->cinfo, priv->quality, TRUE);
   }
 
   // Use progressive mode

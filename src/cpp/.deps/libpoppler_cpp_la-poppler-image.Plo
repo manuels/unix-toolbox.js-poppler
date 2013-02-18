@@ -1,1 +1,204 @@
-# dummy
+libpoppler_cpp_la-poppler-image.lo: poppler-image.cpp poppler-image.h \
+  poppler-global.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/iosfwd \
+  /home/manuel/lib/emscripten/system/include/libcxx/__config \
+  /home/manuel/lib/emscripten/system/include/libc/wchar.h \
+  /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
+  /home/manuel/lib/emscripten/system/include/libc/newlib.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/config.h \
+  /home/manuel/lib/emscripten/system/include/libc/machine/ieeefp.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/features.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/reent.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/_types.h \
+  /home/manuel/lib/emscripten/system/include/libc/machine/_types.h \
+  /home/manuel/lib/emscripten/system/include/libc/machine/_default_types.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/lock.h \
+  /home/manuel/lib/emscripten/system/include/libc/stddef.h \
+  /home/manuel/lib/emscripten/system/include/libc/stdarg.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/string \
+  /home/manuel/lib/emscripten/system/include/libcxx/cstring \
+  /home/manuel/lib/emscripten/system/include/libc/string.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/string.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/cstdio \
+  /home/manuel/lib/emscripten/system/include/libc/stdio.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/types.h \
+  /home/manuel/lib/emscripten/system/include/libc/machine/types.h \
+  /home/manuel/lib/emscripten/system/include/libc/stdint.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/sched.h \
+  /home/manuel/lib/emscripten/system/include/libc/sys/stdio.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/cwchar \
+  /home/manuel/lib/emscripten/system/include/libcxx/cwctype \
+  /home/manuel/lib/emscripten/system/include/libcxx/cctype \
+  /home/manuel/lib/emscripten/system/include/libc/ctype.h \
+  /home/manuel/lib/emscripten/system/include/libc/wctype.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/algorithm \
+  /home/manuel/lib/emscripten/system/include/libcxx/initializer_list \
+  /home/manuel/lib/emscripten/system/include/libcxx/cstddef \
+  /home/manuel/lib/emscripten/system/include/libcxx/type_traits \
+  /home/manuel/lib/emscripten/system/include/libcxx/utility \
+  /home/manuel/lib/emscripten/system/include/libcxx/__tuple \
+  /home/manuel/lib/emscripten/system/include/libcxx/__tuple_03 \
+  /home/manuel/lib/emscripten/system/include/libcxx/memory \
+  /home/manuel/lib/emscripten/system/include/libcxx/typeinfo \
+  /home/manuel/lib/emscripten/system/include/libcxx/exception \
+  /home/manuel/lib/emscripten/system/include/libcxx/cstdint \
+  /home/manuel/lib/emscripten/system/include/libcxx/new \
+  /home/manuel/lib/emscripten/system/include/libcxx/limits \
+  /home/manuel/lib/emscripten/system/include/libcxx/iterator \
+  /home/manuel/lib/emscripten/system/include/libcxx/__functional_base \
+  /home/manuel/lib/emscripten/system/include/libcxx/__functional_base_03 \
+  /home/manuel/lib/emscripten/system/include/libcxx/cassert \
+  /home/manuel/lib/emscripten/system/include/libc/assert.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/cstdlib \
+  /home/manuel/lib/emscripten/system/include/libc/stdlib.h \
+  /home/manuel/lib/emscripten/system/include/libc/machine/stdlib.h \
+  /home/manuel/lib/emscripten/system/include/libc/alloca.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/stdexcept \
+  /home/manuel/lib/emscripten/system/include/libcxx/vector \
+  /home/manuel/lib/emscripten/system/include/libcxx/__bit_reference \
+  /home/manuel/lib/emscripten/system/include/libcxx/climits \
+  /home/manuel/lib/emscripten/system/include/libc/limits.h \
+  /home/manuel/lib/emscripten/system/include/libcxx/__split_buffer \
+  poppler-rectangle.h poppler-image-private.h ../config.h \
+  ../goo/ImgWriter.h ../goo/PNGWriter.h ../poppler/poppler-config.h \
+  ../goo/JpegWriter.h ../goo/TiffWriter.h PNMWriter.h
+
+poppler-image.h:
+
+poppler-global.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/iosfwd:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__config:
+
+/home/manuel/lib/emscripten/system/include/libc/wchar.h:
+
+/home/manuel/lib/emscripten/system/include/libc/_ansi.h:
+
+/home/manuel/lib/emscripten/system/include/libc/newlib.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/config.h:
+
+/home/manuel/lib/emscripten/system/include/libc/machine/ieeefp.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/features.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/reent.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/_types.h:
+
+/home/manuel/lib/emscripten/system/include/libc/machine/_types.h:
+
+/home/manuel/lib/emscripten/system/include/libc/machine/_default_types.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/lock.h:
+
+/home/manuel/lib/emscripten/system/include/libc/stddef.h:
+
+/home/manuel/lib/emscripten/system/include/libc/stdarg.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/string:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cstring:
+
+/home/manuel/lib/emscripten/system/include/libc/string.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/string.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cstdio:
+
+/home/manuel/lib/emscripten/system/include/libc/stdio.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/types.h:
+
+/home/manuel/lib/emscripten/system/include/libc/machine/types.h:
+
+/home/manuel/lib/emscripten/system/include/libc/stdint.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/sched.h:
+
+/home/manuel/lib/emscripten/system/include/libc/sys/stdio.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cwchar:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cwctype:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cctype:
+
+/home/manuel/lib/emscripten/system/include/libc/ctype.h:
+
+/home/manuel/lib/emscripten/system/include/libc/wctype.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/algorithm:
+
+/home/manuel/lib/emscripten/system/include/libcxx/initializer_list:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cstddef:
+
+/home/manuel/lib/emscripten/system/include/libcxx/type_traits:
+
+/home/manuel/lib/emscripten/system/include/libcxx/utility:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__tuple:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__tuple_03:
+
+/home/manuel/lib/emscripten/system/include/libcxx/memory:
+
+/home/manuel/lib/emscripten/system/include/libcxx/typeinfo:
+
+/home/manuel/lib/emscripten/system/include/libcxx/exception:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cstdint:
+
+/home/manuel/lib/emscripten/system/include/libcxx/new:
+
+/home/manuel/lib/emscripten/system/include/libcxx/limits:
+
+/home/manuel/lib/emscripten/system/include/libcxx/iterator:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__functional_base:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__functional_base_03:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cassert:
+
+/home/manuel/lib/emscripten/system/include/libc/assert.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/cstdlib:
+
+/home/manuel/lib/emscripten/system/include/libc/stdlib.h:
+
+/home/manuel/lib/emscripten/system/include/libc/machine/stdlib.h:
+
+/home/manuel/lib/emscripten/system/include/libc/alloca.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/stdexcept:
+
+/home/manuel/lib/emscripten/system/include/libcxx/vector:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__bit_reference:
+
+/home/manuel/lib/emscripten/system/include/libcxx/climits:
+
+/home/manuel/lib/emscripten/system/include/libc/limits.h:
+
+/home/manuel/lib/emscripten/system/include/libcxx/__split_buffer:
+
+poppler-rectangle.h:
+
+poppler-image-private.h:
+
+../config.h:
+
+../goo/ImgWriter.h:
+
+../goo/PNGWriter.h:
+
+../poppler/poppler-config.h:
+
+../goo/JpegWriter.h:
+
+../goo/TiffWriter.h:
+
+PNMWriter.h:

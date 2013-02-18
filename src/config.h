@@ -23,7 +23,7 @@
 /* #undef ENABLE_RELOCATABLE */
 
 /* Use zlib instead of builtin zlib decoder. */
-#define ENABLE_ZLIB 1
+/* #undef ENABLE_ZLIB */
 
 /* Use cairo for rendering. */
 /* #undef HAVE_CAIRO */
@@ -66,7 +66,7 @@
 /* #undef HAVE_LIBTIFF */
 
 /* Define to 1 if you have the `z' library (-lz). */
-#define HAVE_LIBZ 1
+/* #undef HAVE_LIBZ */
 
 /* Defines if localtime_r is available on your system */
 #define HAVE_LOCALTIME_R 1
@@ -134,7 +134,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Define to 1 if you have the <zlib.h> header file. */
-#define HAVE_ZLIB_H 1
+/* #undef HAVE_ZLIB_H */
 
 /* Define as const if the declaration of iconv() needs const. */
 #define ICONV_CONST 

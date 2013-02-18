@@ -1,1 +1,3 @@
-# dummy
+SplashT1FontEngine.lo: SplashT1FontEngine.cc ../config.h
+
+../config.h:

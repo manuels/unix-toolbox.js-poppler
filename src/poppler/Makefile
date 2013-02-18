@@ -127,7 +127,7 @@ am__DEPENDENCIES_3 =  \
 am__DEPENDENCIES_4 = $(am__DEPENDENCIES_1)
 am__DEPENDENCIES_5 = $(am__DEPENDENCIES_1)
 am__DEPENDENCIES_6 = $(am__DEPENDENCIES_1)
-am__DEPENDENCIES_7 = $(am__DEPENDENCIES_1)
+#am__DEPENDENCIES_7 = $(am__DEPENDENCIES_1)
 #am__DEPENDENCIES_8 = $(am__DEPENDENCIES_1)
 #am__DEPENDENCIES_9 = $(am__DEPENDENCIES_1)
 libpoppler_la_DEPENDENCIES = $(top_builddir)/goo/libgoo.la \
@@ -159,7 +159,7 @@ am__libpoppler_la_SOURCES_DIST = SplashOutputDev.cc DCTStream.h \
 	XpdfPluginAPI.cc
 am__objects_1 = SplashOutputDev.lo
 am__objects_2 = DCTStream.lo
-am__objects_3 = FlateStream.lo
+#am__objects_3 = FlateStream.lo
 am__objects_4 = JPXStream.lo
 #am__objects_4 = JPEG2000Stream.lo
 #am__objects_5 = CurlCachedFile.lo \
@@ -294,11 +294,11 @@ ECHO_T =
 EGREP = /bin/grep -E
 EXEEXT = 
 FGREP = /bin/grep -F
-FONTCONFIG_CFLAGS = -I../../fontconfig/src/src/
+FONTCONFIG_CFLAGS = -I../../fontconfig/src/
 FONTCONFIG_LIBS = -L../../fontconfig/src/src/
-FREETYPE_CFLAGS = -I/usr/include/freetype2
-FREETYPE_CONFIG = /usr/bin/freetype-config
-FREETYPE_LIBS = -L/usr/lib/i386-linux-gnu -lfreetype -lz
+FREETYPE_CFLAGS = -I../../freetype/src/include/
+FREETYPE_CONFIG = 
+FREETYPE_LIBS = -L../../freetype/src/objs/
 GLIB_MKENUMS = 
 GLIB_REQ = 
 GLIB_REQUIRED = 
@@ -338,7 +338,7 @@ LIBOPENJPEG_CFLAGS =
 LIBOPENJPEG_LIBS = 
 LIBPNG_CFLAGS = -I../../libpng/src/
 LIBPNG_LIBS = -L../../libpng/src/
-LIBS = -lz 
+LIBS = 
 LIBTIFF_CFLAGS = -I../../libtiff/src/
 LIBTIFF_CFLAGSS = 
 LIBTIFF_LIBS = -ltiff
@@ -401,7 +401,7 @@ X_CFLAGS =
 X_EXTRA_LIBS = 
 X_LIBS = 
 X_PRE_LIBS =  -lSM -lICE
-ZLIB_LIBS = -lz
+ZLIB_LIBS = 
 abs_builddir = /home/manuel/Projekte/unix-toolbox.js/modules/poppler/src/poppler
 abs_srcdir = /home/manuel/Projekte/unix-toolbox.js/modules/poppler/src/poppler
 abs_top_builddir = /home/manuel/Projekte/unix-toolbox.js/modules/poppler/src
@@ -534,12 +534,12 @@ libjpeg2000_sources = \
 #libjpeg2000_includes = \
 #	$(LIBOPENJPEG_CFLAGS)
 
-zlib_sources = \
-	FlateStream.h				\
-	FlateStream.cc
+#zlib_sources = \
+#	FlateStream.h				\
+#	FlateStream.cc
 
-zlib_libs = \
-	$(ZLIB_LIBS)
+#zlib_libs = \
+#	$(ZLIB_LIBS)
 
 #libcurl_libs = \
 #	$(LIBCURL_LIBS)

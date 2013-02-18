@@ -67,7 +67,7 @@
 
 /* Use zlib instead of builtin zlib decoder. */
 #ifndef ENABLE_ZLIB
-#define ENABLE_ZLIB 1
+/* #undef ENABLE_ZLIB */
 #endif
 
 /* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
