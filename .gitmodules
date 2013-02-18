@@ -1,0 +1,15 @@
+[submodule "zlib"]
+	path = zlib
+	url = ../zlib
+[submodule "libpng"]
+	path = libpng
+	url = ../libpng
+[submodule "libjpeg"]
+	path = libjpeg
+	url = ../libjpeg
+[submodule "freetype"]
+	path = freetype
+	url = ../freetype
+[submodule "fontconfig"]
+	path = fontconfig
+	url = ../fontconfig
