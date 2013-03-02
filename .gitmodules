@@ -1,21 +1,21 @@
 [submodule "zlib"]
 	path = zlib
-	url = ../zlib
+	url = git://github.com/manuels/unix-toolbox.js-zlib.git
 [submodule "libpng"]
 	path = libpng
-	url = ../libpng
+	url = git://github.com/manuels/unix-toolbox.js-libpng.git
 [submodule "libjpeg"]
 	path = libjpeg
-	url = ../libjpeg
+	url = git://github.com/manuels/unix-toolbox.js-libjpeg.git
 [submodule "freetype"]
 	path = freetype
-	url = ../freetype
+	url = git://github.com/manuels/unix-toolbox.js-freetype.git
 [submodule "fontconfig"]
 	path = fontconfig
-	url = ../fontconfig
+	url = git://github.com/manuels/unix-toolbox.js-fontconfig.git
 [submodule "toolbox-base"]
 	path = toolbox-base
-	url = ../../base
+	url = git://github.com/manuels/unix-toolbox.js-base.git
 [submodule "libtiff"]
 	path = libtiff
-	url = ../libtiff
+	url = git://github.com/manuels/unix-toolbox.js-libtiff.git
