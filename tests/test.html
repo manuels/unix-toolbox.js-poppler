@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body style="background-color: #7f7f7f">
+
+<script src="../toolbox-base/interface.js"></script>
+<script>
+  function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split('&');
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split('=');
+      if (decodeURIComponent(pair[0]) == variable)
+        return decodeURIComponent(pair[1]);
+    }
+    console.log('Query variable %s not found', variable);
+  }
+
+
+  Function.prototype.curry = function() {
+    var fn = this, args = Array.prototype.slice.call(arguments);
+    return function() {
+      return fn.apply(this, args.concat(
+        Array.prototype.slice.call(arguments)));
+    };
+  };
+
+
+  Function.prototype.curryPromise = function() {
+    var prom = new Interface.Promise();
+
+    var fn = this, args = Array.prototype.slice.call(arguments);
+    var cb = function() {
+      var res_prom = fn.apply(fn, args);
+
+      res_prom.then(function() {
+        var args = Array.prototype.slice.call(arguments);
+        prom.fulfil.apply(prom, args);
+      });
+      return prom;
+    };
+
+    cb.then = function(then_cb) {
+      prom.then(then_cb);
+      return cb;
+    }
+
+    return cb;
+  };
+
+  var testResult = function(res) {
+    document.getElementsByTagName("body")[0].style.backgroundColor = (res ? '#2ca02c' : '#d62728');
+  };
+
+  var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.src = getQueryVariable('testurl');
+  document.getElementsByTagName("head")[0].appendChild(s);
+</script>
+
+</body>
+</html>
